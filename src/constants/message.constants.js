@@ -1,0 +1,4 @@
+export const messageConstants = {
+  SET_MESSAGE: "MESSAGE_SET_MESSAGE",
+  UNSET_MESSAGE: "MESSAGE_UNSET_MESSAGE",
+};
