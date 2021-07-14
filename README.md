@@ -6,15 +6,19 @@
 ## 動作環境
 ### 1.前提条件
 動作には以下の環境であることを前提とします。
-* Ubuntu OS
-* ARM CPU搭載のデバイス
+- OS: Ubuntu18.04
+
+- CPU: arm64
 
 ### 2.事前準備
 実行環境に以下のソフトウェアがインストールされている事を前提とします。
-* kubernetesのインストール
-* envoyのインストール
-* project-yamlsのインストール
-* aion-core-manifestsのインストール
+- kubernetesのインストール (https://kubernetes.io/)
+
+- envoyのインストール
+
+- project-yamlsのインストール
+
+- aion-core-manifestsのインストール (https://github.com/latonaio/aion-core-manifests)
 
 ## 機器構成
 * エッジ端末2台以上(全てにこのUIリソースを配置する)
